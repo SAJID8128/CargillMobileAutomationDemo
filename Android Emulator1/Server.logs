@@ -1,0 +1,257 @@
+2021-10-27 07:12:34:755 [Appium] Welcome to Appium v1.22.0
+2021-10-27 07:12:34:756 [Appium] Non-default server args:
+2021-10-27 07:12:34:756 [Appium]   port: 4071
+2021-10-27 07:12:34:757 [Appium]   sessionOverride: true
+2021-10-27 07:12:34:757 [Appium]   logFile: /Users/nyla/IdeaProjects/CargillMobileAutomationDemo/Android Emulator1/Server.logs
+2021-10-27 07:12:34:774 [Appium] Appium REST http interface listener started on 0.0.0.0:4071
+2021-10-27 07:12:34:970 [HTTP] --> GET /wd/hub/status
+2021-10-27 07:12:34:970 [HTTP] {}
+2021-10-27 07:12:34:971 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2021-10-27 07:12:34:972 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.22.0"}}
+2021-10-27 07:12:34:978 [HTTP] <-- GET /wd/hub/status 200 6 ms - 68
+2021-10-27 07:12:34:978 [HTTP] 
+2021-10-27 07:12:34:982 [HTTP] --> GET /wd/hub/status
+2021-10-27 07:12:34:983 [HTTP] {}
+2021-10-27 07:12:34:983 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2021-10-27 07:12:34:983 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.22.0"}}
+2021-10-27 07:12:34:984 [HTTP] <-- GET /wd/hub/status 200 1 ms - 68
+2021-10-27 07:12:34:984 [HTTP] 
+2021-10-27 07:12:35:338 [HTTP] Request idempotency key: 49310330-3269-4586-be28-08bcba96f7c6
+2021-10-27 07:12:35:356 [HTTP] --> POST /wd/hub/session
+2021-10-27 07:12:35:356 [HTTP] {"desiredCapabilities":{"app":"/Users/nyla/IdeaProjects/CargillMobileAutomationDemo/src/test/resources/apps/Android.SauceLabs.Mobile.Sample.app.2.2.1.apk","appActivity":"com.swaglabsmobileapp.SplashActivity","appPackage":"com.swaglabsmobileapp","automationName":"UiAutomator2","chromeDriverPort":"11000","platformName":"Android","udid":"emulator-5554","deviceName":"Emulator1","systemPort":"10000"},"capabilities":{"firstMatch":[{"appium:app":"/Users/nyla/IdeaProjects/CargillMobileAutomationDemo/src/test/resources/apps/Android.SauceLabs.Mobile.Sample.app.2.2.1.apk","appium:appActivity":"com.swaglabsmobileapp.SplashActivity","appium:appPackage":"com.swaglabsmobileapp","appium:automationName":"UiAutomator2","chromeDriverPort":"11000","appium:deviceName":"Emulator1","platformName":"android","appium:systemPort":"10000","appium:udid":"emulator-5554"}]}}
+2021-10-27 07:12:35:356 [W3C] Calling AppiumDriver.createSession() with args: [{"app":"/Users/nyla/IdeaProjects/CargillMobileAutomationDemo/src/test/resources/apps/Android.SauceLabs.Mobile.Sample.app.2.2.1.apk","appActivity":"com.swaglabsmobileapp.SplashActivity","appPackage":"com.swaglabsmobileapp","automationName":"UiAutomator2","chromeDriverPort":"11000","platformName":"Android","udid":"emulator-5554","deviceName":"Emulator1","systemPort":"10000"},null,{"firstMatch":[{"appium:app":"/Users/nyla/IdeaProjects/CargillMobileAutomationDemo/src/test/resources/apps/Android.SauceLabs.Mobile.Sample.app.2.2.1.apk","appium:appActivity":"com.swaglabsmobileapp.SplashActivity","appium:appPackage":"com.swaglabsmobileapp","appium:automationName":"UiAutomator2","chromeDriverPort":"11000","appium:deviceName":"Emulator1","platformName":"android","appium:systemPort":"10000","appium:udid":"emulator-5554"}]}]
+2021-10-27 07:12:35:363 [BaseDriver] Event 'newSessionRequested' logged at 1635318755357 (03:12:35 GMT-0400 (Eastern Daylight Time))
+2021-10-27 07:12:35:366 [BaseDriver] The following capabilities are not standard capabilities and should have an extension prefix:
+2021-10-27 07:12:35:366 [BaseDriver]   chromeDriverPort
+2021-10-27 07:12:35:612 [Appium] Appium v1.22.0 creating new AndroidUiautomator2Driver (v1.69.0) session
+2021-10-27 07:12:35:612 [Appium] There are no active sessions for cleanup
+2021-10-27 07:12:35:614 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+2021-10-27 07:12:35:614 [BaseDriver] Creating session with W3C capabilities: {
+2021-10-27 07:12:35:614 [BaseDriver]   "alwaysMatch": {
+2021-10-27 07:12:35:614 [BaseDriver]     "appium:chromeDriverPort": "11000",
+2021-10-27 07:12:35:614 [BaseDriver]     "platformName": "android",
+2021-10-27 07:12:35:614 [BaseDriver]     "appium:app": "/Users/nyla/IdeaProjects/CargillMobileAutomationDemo/src/test/resources/apps/Android.SauceLabs.Mobile.Sample.app.2.2.1.apk",
+2021-10-27 07:12:35:615 [BaseDriver]     "appium:appActivity": "com.swaglabsmobileapp.SplashActivity",
+2021-10-27 07:12:35:615 [BaseDriver]     "appium:appPackage": "com.swaglabsmobileapp",
+2021-10-27 07:12:35:615 [BaseDriver]     "appium:automationName": "UiAutomator2",
+2021-10-27 07:12:35:615 [BaseDriver]     "appium:deviceName": "Emulator1",
+2021-10-27 07:12:35:615 [BaseDriver]     "appium:systemPort": "10000",
+2021-10-27 07:12:35:615 [BaseDriver]     "appium:udid": "emulator-5554"
+2021-10-27 07:12:35:615 [BaseDriver]   },
+2021-10-27 07:12:35:615 [BaseDriver]   "firstMatch": [
+2021-10-27 07:12:35:615 [BaseDriver]     {}
+2021-10-27 07:12:35:615 [BaseDriver]   ]
+2021-10-27 07:12:35:615 [BaseDriver] }
+2021-10-27 07:12:35:617 [BaseDriver] Number capability passed in as string. Functionality may be compromised.
+2021-10-27 07:12:35:617 [BaseDriver] Number capability passed in as string. Functionality may be compromised.
+2021-10-27 07:12:35:619 [BaseDriver] Capability 'systemPort' changed from string ('10000') to integer (10000). This may cause unexpected behavior
+2021-10-27 07:12:35:619 [BaseDriver] Capability 'chromeDriverPort' changed from string ('11000') to integer (11000). This may cause unexpected behavior
+2021-10-27 07:12:35:621 [BaseDriver] Session created with session id: 8d597fc4-5e40-4214-bbf3-05d1224f9dbd
+2021-10-27 07:12:35:622 [BaseDriver] Using local app '/Users/nyla/IdeaProjects/CargillMobileAutomationDemo/src/test/resources/apps/Android.SauceLabs.Mobile.Sample.app.2.2.1.apk'
+2021-10-27 07:12:35:623 [UiAutomator2] Checking whether app is actually present
+2021-10-27 07:12:35:659 [ADB] Found 2 'build-tools' folders under '/Users/nyla/Library/Android/sdk' (newest first):
+2021-10-27 07:12:35:659 [ADB]     /Users/nyla/Library/Android/sdk/build-tools/31.0.0
+2021-10-27 07:12:35:659 [ADB]     /Users/nyla/Library/Android/sdk/build-tools/30.0.2
+2021-10-27 07:12:35:660 [ADB] Using 'adb' from '/Users/nyla/Library/Android/sdk/platform-tools/adb'
+2021-10-27 07:12:35:660 [ADB] Running '/Users/nyla/Library/Android/sdk/platform-tools/adb -P 5037 start-server'
+2021-10-27 07:12:35:674 [AndroidDriver] Retrieving device list
+2021-10-27 07:12:35:674 [ADB] Trying to find a connected android device
+2021-10-27 07:12:35:675 [ADB] Getting connected devices
+2021-10-27 07:12:35:683 [ADB] Connected devices: [{"udid":"emulator-5554","state":"device"}]
+2021-10-27 07:12:35:684 [AndroidDriver] Using device: emulator-5554
+2021-10-27 07:12:35:685 [ADB] Using 'adb' from '/Users/nyla/Library/Android/sdk/platform-tools/adb'
+2021-10-27 07:12:35:685 [ADB] Running '/Users/nyla/Library/Android/sdk/platform-tools/adb -P 5037 start-server'
+2021-10-27 07:12:35:693 [ADB] Setting device id to emulator-5554
+2021-10-27 07:12:35:694 [ADB] Running '/Users/nyla/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell getprop ro.build.version.sdk'
+2021-10-27 07:12:35:737 [ADB] Current device property 'ro.build.version.sdk': 30
+2021-10-27 07:12:35:738 [ADB] Getting device platform version
+2021-10-27 07:12:35:738 [ADB] Running '/Users/nyla/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell getprop ro.build.version.release'
+2021-10-27 07:12:35:759 [ADB] Current device property 'ro.build.version.release': 11
+2021-10-27 07:12:35:760 [ADB] Device API level: 30
+2021-10-27 07:12:35:760 [UiAutomator2] Relaxing hidden api policy
+2021-10-27 07:12:35:761 [ADB] Running '/Users/nyla/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell 'settings put global hidden_api_policy_pre_p_apps 1;settings put global hidden_api_policy_p_apps 1;settings put global hidden_api_policy 1''
+2021-10-27 07:12:35:844 [ADB] Running '/Users/nyla/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 wait-for-device'
+2021-10-27 07:12:35:852 [ADB] Running '/Users/nyla/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell echo ping'
+2021-10-27 07:12:35:871 [AndroidDriver] Pushing settings apk to device...
+2021-10-27 07:12:35:871 [ADB] Getting install status for io.appium.settings
+2021-10-27 07:12:35:872 [ADB] Running '/Users/nyla/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package io.appium.settings'
+2021-10-27 07:12:36:171 [ADB] 'io.appium.settings' is installed
+2021-10-27 07:12:36:172 [ADB] Getting package info for 'io.appium.settings'
+2021-10-27 07:12:36:172 [ADB] Running '/Users/nyla/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package io.appium.settings'
+2021-10-27 07:12:36:214 [ADB] The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('3.4.0' >= '3.4.0')
+2021-10-27 07:12:36:214 [ADB] There is no need to install/upgrade '/usr/local/lib/node_modules/appium/node_modules/io.appium.settings/apks/settings_apk-debug.apk'
+2021-10-27 07:12:36:214 [ADB] Getting IDs of all 'io.appium.settings' processes
+2021-10-27 07:12:36:215 [ADB] Running '/Users/nyla/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell 'pgrep --help; echo $?''
+2021-10-27 07:12:36:245 [ADB] Running '/Users/nyla/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell pgrep -f \(\[\[:blank:\]\]\|\^\)io\.appium\.settings\(\[\[:blank:\]\]\|\$\)'
+2021-10-27 07:12:36:314 [AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
+2021-10-27 07:12:36:315 [Logcat] Starting logs capture with command: /Users/nyla/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 logcat -v threadtime
+2021-10-27 07:12:36:341 [UiAutomator2] Forwarding UiAutomator2 Server port 6790 to local port 10000
+2021-10-27 07:12:36:344 [ADB] Forwarding system: 10000 to device: 6790
+2021-10-27 07:12:36:345 [ADB] Running '/Users/nyla/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 forward tcp:10000 tcp:6790'
+2021-10-27 07:12:36:356 [UiAutomator2] Server package at '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.24.0.apk' is not writeable. Will copy it into the temporary location at '/var/folders/2s/579gzwbd6pz_ssj4t1p5mr680000gn/T/2021927-24862-1n3scvy.bs7l' as a workaround. Consider making this file writeable manually in order to improve the performance of session startup.
+2021-10-27 07:12:36:356 [UiAutomator2] Server package at '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' is not writeable. Will copy it into the temporary location at '/var/folders/2s/579gzwbd6pz_ssj4t1p5mr680000gn/T/2021927-24862-1n3scvy.bs7l' as a workaround. Consider making this file writeable manually in order to improve the performance of session startup.
+2021-10-27 07:12:36:393 [ADB] Getting install status for io.appium.uiautomator2.server
+2021-10-27 07:12:36:393 [ADB] Running '/Users/nyla/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package io.appium.uiautomator2.server'
+2021-10-27 07:12:36:428 [ADB] 'io.appium.uiautomator2.server' is installed
+2021-10-27 07:12:36:429 [ADB] Getting package info for 'io.appium.uiautomator2.server'
+2021-10-27 07:12:36:429 [ADB] Running '/Users/nyla/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package io.appium.uiautomator2.server'
+2021-10-27 07:12:36:482 [ADB] The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('4.24.0' >= '4.24.0')
+2021-10-27 07:12:36:483 [UiAutomator2] io.appium.uiautomator2.server installation state: sameVersionInstalled
+2021-10-27 07:12:36:483 [ADB] Checking app cert for /var/folders/2s/579gzwbd6pz_ssj4t1p5mr680000gn/T/2021927-24862-1n3scvy.bs7l/appium-uiautomator2-server-v4.24.0.apk
+2021-10-27 07:12:36:493 [ADB] Using 'apksigner.jar' from '/Users/nyla/Library/Android/sdk/build-tools/31.0.0/lib/apksigner.jar'
+2021-10-27 07:12:36:494 [ADB] Starting apksigner: '/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/bin/java' -Xmx1024M -Xss1m -jar /Users/nyla/Library/Android/sdk/build-tools/31.0.0/lib/apksigner.jar verify --print-certs /var/folders/2s/579gzwbd6pz_ssj4t1p5mr680000gn/T/2021927-24862-1n3scvy.bs7l/appium-uiautomator2-server-v4.24.0.apk
+2021-10-27 07:12:37:085 [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+2021-10-27 07:12:37:085 [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+2021-10-27 07:12:37:085 [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+2021-10-27 07:12:37:085 [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+2021-10-27 07:12:37:085 [ADB] 
+2021-10-27 07:12:37:086 [ADB] sha256 hash did match for 'appium-uiautomator2-server-v4.24.0.apk'
+2021-10-27 07:12:37:086 [ADB] '/var/folders/2s/579gzwbd6pz_ssj4t1p5mr680000gn/T/2021927-24862-1n3scvy.bs7l/appium-uiautomator2-server-v4.24.0.apk' is signed with the default certificate
+2021-10-27 07:12:37:086 [ADB] Getting install status for io.appium.uiautomator2.server.test
+2021-10-27 07:12:37:086 [ADB] Running '/Users/nyla/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package io.appium.uiautomator2.server.test'
+2021-10-27 07:12:37:114 [ADB] 'io.appium.uiautomator2.server.test' is installed
+2021-10-27 07:12:37:114 [ADB] Checking app cert for /var/folders/2s/579gzwbd6pz_ssj4t1p5mr680000gn/T/2021927-24862-1n3scvy.bs7l/appium-uiautomator2-server-debug-androidTest.apk
+2021-10-27 07:12:37:117 [ADB] Starting apksigner: '/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/bin/java' -Xmx1024M -Xss1m -jar /Users/nyla/Library/Android/sdk/build-tools/31.0.0/lib/apksigner.jar verify --print-certs /var/folders/2s/579gzwbd6pz_ssj4t1p5mr680000gn/T/2021927-24862-1n3scvy.bs7l/appium-uiautomator2-server-debug-androidTest.apk
+2021-10-27 07:12:37:430 [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+2021-10-27 07:12:37:430 [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+2021-10-27 07:12:37:430 [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+2021-10-27 07:12:37:430 [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+2021-10-27 07:12:37:430 [ADB] 
+2021-10-27 07:12:37:431 [ADB] sha256 hash did match for 'appium-uiautomator2-server-debug-androidTest.apk'
+2021-10-27 07:12:37:431 [ADB] '/var/folders/2s/579gzwbd6pz_ssj4t1p5mr680000gn/T/2021927-24862-1n3scvy.bs7l/appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
+2021-10-27 07:12:37:431 [UiAutomator2] Server packages are not going to be (re)installed
+2021-10-27 07:12:37:435 [UiAutomator2] Waiting up to 30000ms for services to be available
+2021-10-27 07:12:37:435 [ADB] Running '/Users/nyla/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell pm list instrumentation'
+2021-10-27 07:12:37:478 [UiAutomator2] Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
+2021-10-27 07:12:37:481 [ADB] Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+2021-10-27 07:12:37:481 [ADB] Got the following command chunks to execute: [["dumpsys","deviceidle","whitelist","+io.appium.settings",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server.test",";"]]
+2021-10-27 07:12:37:481 [ADB] Running '/Users/nyla/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys deviceidle whitelist +io.appium.settings ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server.test ;'
+2021-10-27 07:12:37:544 [ADB] Checking app cert for /Users/nyla/IdeaProjects/CargillMobileAutomationDemo/src/test/resources/apps/Android.SauceLabs.Mobile.Sample.app.2.2.1.apk
+2021-10-27 07:12:37:597 [ADB] Starting apksigner: '/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/bin/java' -Xmx1024M -Xss1m -jar /Users/nyla/Library/Android/sdk/build-tools/31.0.0/lib/apksigner.jar verify --print-certs /Users/nyla/IdeaProjects/CargillMobileAutomationDemo/src/test/resources/apps/Android.SauceLabs.Mobile.Sample.app.2.2.1.apk
+2021-10-27 07:12:38:751 [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+2021-10-27 07:12:38:751 [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+2021-10-27 07:12:38:751 [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+2021-10-27 07:12:38:751 [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+2021-10-27 07:12:38:751 [ADB] 
+2021-10-27 07:12:38:751 [ADB] sha256 hash did match for 'Android.SauceLabs.Mobile.Sample.app.2.2.1.apk'
+2021-10-27 07:12:38:751 [ADB] '/Users/nyla/IdeaProjects/CargillMobileAutomationDemo/src/test/resources/apps/Android.SauceLabs.Mobile.Sample.app.2.2.1.apk' is signed with the default certificate
+2021-10-27 07:12:38:752 [ADB] Getting install status for com.swaglabsmobileapp
+2021-10-27 07:12:38:752 [ADB] Running '/Users/nyla/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package com.swaglabsmobileapp'
+2021-10-27 07:12:38:799 [ADB] 'com.swaglabsmobileapp' is installed
+2021-10-27 07:12:38:799 [ADB] Getting package info for 'com.swaglabsmobileapp'
+2021-10-27 07:12:38:799 [ADB] Running '/Users/nyla/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package com.swaglabsmobileapp'
+2021-10-27 07:12:38:832 [ADB] The version name of the installed 'com.swaglabsmobileapp' is greater or equal to the application version name ('2.2.1' >= '2.2.1')
+2021-10-27 07:12:38:832 [ADB] There is no need to install/upgrade '/Users/nyla/IdeaProjects/CargillMobileAutomationDemo/src/test/resources/apps/Android.SauceLabs.Mobile.Sample.app.2.2.1.apk'
+2021-10-27 07:12:38:832 [AndroidDriver] Performing fast reset on 'com.swaglabsmobileapp'
+2021-10-27 07:12:38:833 [ADB] Getting install status for com.swaglabsmobileapp
+2021-10-27 07:12:38:833 [ADB] Running '/Users/nyla/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package com.swaglabsmobileapp'
+2021-10-27 07:12:38:862 [ADB] 'com.swaglabsmobileapp' is installed
+2021-10-27 07:12:38:862 [ADB] Running '/Users/nyla/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am force-stop com.swaglabsmobileapp'
+2021-10-27 07:12:38:898 [ADB] Running '/Users/nyla/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell pm clear com.swaglabsmobileapp'
+2021-10-27 07:12:38:992 [AndroidDriver] Performed fast reset on the installed 'com.swaglabsmobileapp' application (stop and clear)
+2021-10-27 07:12:38:993 [UiAutomator2] Performing shallow cleanup of automation leftovers
+2021-10-27 07:12:39:046 [UiAutomator2] The following obsolete sessions are still running: ["cb08b630-3b67-43d8-80f6-8418c60cdb50"]
+2021-10-27 07:12:39:048 [UiAutomator2] Cleaning up 1 obsolete session
+2021-10-27 07:12:40:073 [ADB] Running '/Users/nyla/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am force-stop io.appium.uiautomator2.server.test'
+2021-10-27 07:12:40:124 [UiAutomator2] Starting UIAutomator2 server 4.24.0
+2021-10-27 07:12:40:124 [UiAutomator2] Using UIAutomator2 server from '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.24.0.apk' and test from '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
+2021-10-27 07:12:40:124 [UiAutomator2] Waiting up to 30000ms for UiAutomator2 to be online...
+2021-10-27 07:12:40:125 [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","emulator-5554","shell","am","instrument","-w","-e","disableAnalytics",true,"io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
+2021-10-27 07:12:40:132 [WD Proxy] Matched '/status' to command name 'getStatus'
+2021-10-27 07:12:40:133 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:10000/wd/hub/status] with no body
+2021-10-27 07:12:40:145 [WD Proxy] socket hang up
+2021-10-27 07:12:41:146 [WD Proxy] Matched '/status' to command name 'getStatus'
+2021-10-27 07:12:41:147 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:10000/wd/hub/status] with no body
+2021-10-27 07:12:41:151 [WD Proxy] socket hang up
+2021-10-27 07:12:41:378 [Instrumentation] io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
+2021-10-27 07:12:42:152 [WD Proxy] Matched '/status' to command name 'getStatus'
+2021-10-27 07:12:42:153 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:10000/wd/hub/status] with no body
+2021-10-27 07:12:42:162 [WD Proxy] socket hang up
+2021-10-27 07:12:43:166 [WD Proxy] Matched '/status' to command name 'getStatus'
+2021-10-27 07:12:43:166 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:10000/wd/hub/status] with no body
+2021-10-27 07:12:43:298 [WD Proxy] Got response with status 200: {"sessionId":"None","value":{"message":"UiAutomator2 Server is ready to accept commands","ready":true}}
+2021-10-27 07:12:43:298 [UiAutomator2] The initialization of the instrumentation process took 3174ms
+2021-10-27 07:12:43:299 [WD Proxy] Matched '/session' to command name 'createSession'
+2021-10-27 07:12:43:299 [WD Proxy] Proxying [POST /session] to [POST http://127.0.0.1:10000/wd/hub/session] with body: {"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","chromeDriverPort":11000,"app":"/Users/nyla/IdeaProjects/CargillMobileAutomationDemo/src/test/resources/apps/Android.SauceLabs.Mobile.Sample.app.2.2.1.apk","appActivity":"com.swaglabsmobileapp.SplashActivity","appPackage":"com.swaglabsmobileapp","automationName":"UiAutomator2","deviceName":"Emulator1","systemPort":10000,"udid":"emulator-5554"},"platformName":"android","chromeDriverPort":11000,"app":"/Users/nyla/IdeaProjects/CargillMobileAutomationDemo/src/test/resources/apps/Android.SauceLabs.Mobile.Sample.app.2.2.1.apk","appActivity":"com.swaglabsmobileapp.SplashActivity","appPackage":"com.swaglabsmobileapp","automationName":"UiAutomator2","deviceName":"emulator-5554","systemPort":10000,"udid":"emulator-5554","deviceUDID":"emulator-5554"}],"alwaysM...
+2021-10-27 07:12:43:331 [WD Proxy] Got response with status 200: {"sessionId":"87f1625a-8083-4411-95a5-543bab41bdec","value":{"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","chromeDriverPort":11000,"app":"/Users/nyla/IdeaProjects/CargillMobileAutomationDemo/src/test/resources/apps/Android.SauceLabs.Mobile.Sample.app.2.2.1.apk","appActivity":"com.swaglabsmobileapp.SplashActivity","appPackage":"com.swaglabsmobileapp","automationName":"UiAutomator2","deviceName":"Emulator1","systemPort":10000,"udid":"emulator-5554"},"platformName":"android","chromeDriverPort":11000,"app":"/Users/nyla/IdeaProjects/CargillMobileAutomationDemo/src/test/resources/apps/Android.SauceLabs.Mobile.Sample.app.2.2.1.apk","appActivity":"com.swaglabsmobileapp.SplashActivity","appPackage":"com.swaglabsmobileapp","automationName":"UiAutomator2","deviceName":"emulator-5554","systemPort":10000,"u...
+2021-10-27 07:12:43:331 [WD Proxy] Determined the downstream protocol as 'W3C'
+2021-10-27 07:12:43:340 [WD Proxy] Proxying [GET /appium/device/info] to [GET http://127.0.0.1:10000/wd/hub/session/87f1625a-8083-4411-95a5-543bab41bdec/appium/device/info] with no body
+2021-10-27 07:12:43:371 [WD Proxy] Got response with status 200: {"sessionId":"87f1625a-8083-4411-95a5-543bab41bdec","value":{"androidId":"64908de40b91c186","apiVersion":"30","bluetooth":{"state":"ON"},"brand":"google","carrierName":"Android","displayDensity":440,"locale":"en_US","manufacturer":"Google","model":"sdk_gphone_x86_64","networks":[{"capabilities":{"SSID":null,"linkDownBandwidthKbps":141000,"linkUpstreamBandwidthKbps":141000,"networkCapabilities":"NET_CAPABILITY_NOT_METERED,NET_CAPABILITY_INTERNET,NET_CAPABILITY_NOT_RESTRICTED,NET_CAPABILITY_TRUSTED,NET_CAPABILITY_NOT_VPN,NET_CAPABILITY_VALIDATED,NET_CAPABILITY_NOT_ROAMING,NET_CAPABILITY_FOREGROUND,NET_CAPABILITY_NOT_CONGESTED,NET_CAPABILITY_NOT_SUSPENDED","signalStrength":-30,"transportTypes":"TRANSPORT_WIFI"},"detailedState":"CONNECTED","extraInfo":"","isAvailable":true,"isConnected":true,"isFailover":false,"isRoaming":false,"state":"CONNECTED","subtype":0,"subtypeName":"","type":1,"typeName":"WIFI"},{"capabilities":{"SSID":null,"linkDownBandwidthKbps":30000,"linkUpstreamBandwidthKbps":15000,"networkCapabil...
+2021-10-27 07:12:43:371 [ADB] Running '/Users/nyla/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys window'
+2021-10-27 07:12:43:418 [AndroidDriver] Screen already unlocked, doing nothing
+2021-10-27 07:12:43:418 [UiAutomator2] Starting 'com.swaglabsmobileapp/com.swaglabsmobileapp.SplashActivity and waiting for 'com.swaglabsmobileapp/com.swaglabsmobileapp.SplashActivity'
+2021-10-27 07:12:43:419 [ADB] Running '/Users/nyla/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am start -W -n com.swaglabsmobileapp/com.swaglabsmobileapp.SplashActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2021-10-27 07:12:44:596 [WD Proxy] Proxying [GET /appium/device/pixel_ratio] to [GET http://127.0.0.1:10000/wd/hub/session/87f1625a-8083-4411-95a5-543bab41bdec/appium/device/pixel_ratio] with no body
+2021-10-27 07:12:44:606 [WD Proxy] Got response with status 200: {"sessionId":"87f1625a-8083-4411-95a5-543bab41bdec","value":2.75}
+2021-10-27 07:12:44:607 [WD Proxy] Matched '/appium/device/system_bars' to command name 'getSystemBars'
+2021-10-27 07:12:44:607 [WD Proxy] Proxying [GET /appium/device/system_bars] to [GET http://127.0.0.1:10000/wd/hub/session/87f1625a-8083-4411-95a5-543bab41bdec/appium/device/system_bars] with no body
+2021-10-27 07:12:44:616 [WD Proxy] Got response with status 200: {"sessionId":"87f1625a-8083-4411-95a5-543bab41bdec","value":{"statusBar":135}}
+2021-10-27 07:12:44:617 [WD Proxy] Matched '/window/current/size' to command name 'getWindowSize'
+2021-10-27 07:12:44:617 [WD Proxy] Proxying [GET /window/current/size] to [GET http://127.0.0.1:10000/wd/hub/session/87f1625a-8083-4411-95a5-543bab41bdec/window/current/size] with no body
+2021-10-27 07:12:44:627 [WD Proxy] Got response with status 200: {"sessionId":"87f1625a-8083-4411-95a5-543bab41bdec","value":{"height":1977,"width":1080}}
+2021-10-27 07:12:44:628 [Appium] New AndroidUiautomator2Driver session created successfully, session 8d597fc4-5e40-4214-bbf3-05d1224f9dbd added to master session list
+2021-10-27 07:12:44:628 [BaseDriver] Event 'newSessionStarted' logged at 1635318764628 (03:12:44 GMT-0400 (Eastern Daylight Time))
+2021-10-27 07:12:44:629 [W3C (8d597fc4)] Cached the protocol value 'W3C' for the new session 8d597fc4-5e40-4214-bbf3-05d1224f9dbd
+2021-10-27 07:12:44:629 [W3C (8d597fc4)] Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","chromeDriverPort":11000,"app":"/Users/nyla/IdeaProjects/CargillMobileAutomationDemo/src/test/resources/apps/Android.SauceLabs.Mobile.Sample.app.2.2.1.apk","appActivity":"com.swaglabsmobileapp.SplashActivity","appPackage":"com.swaglabsmobileapp","automationName":"UiAutomator2","deviceName":"Emulator1","systemPort":10000,"udid":"emulator-5554"},"platformName":"android","chromeDriverPort":11000,"app":"/Users/nyla/IdeaProjects/CargillMobileAutomationDemo/src/test/resources/apps/Android.SauceLabs.Mobile.Sample.app.2.2.1.apk","appActivity":"com.swaglabsmobileapp.SplashActivity","appPackage":"com.swaglabsmobileapp","automationName":"UiAutomator2","deviceName":"emulator-5554","systemPort":10000,"udid":"emulator-5554","deviceUDID":"emulator-5554","deviceApiLevel":30,"plat...
+2021-10-27 07:12:44:630 [HTTP] <-- POST /wd/hub/session 200 9274 ms - 1323
+2021-10-27 07:12:44:630 [HTTP] 
+2021-10-27 07:12:44:671 [HTTP] --> DELETE /wd/hub/session/8d597fc4-5e40-4214-bbf3-05d1224f9dbd
+2021-10-27 07:12:44:671 [HTTP] {}
+2021-10-27 07:12:44:672 [W3C (8d597fc4)] Calling AppiumDriver.deleteSession() with args: ["8d597fc4-5e40-4214-bbf3-05d1224f9dbd"]
+2021-10-27 07:12:44:672 [BaseDriver] Event 'quitSessionRequested' logged at 1635318764672 (03:12:44 GMT-0400 (Eastern Daylight Time))
+2021-10-27 07:12:44:672 [Appium] Removing session 8d597fc4-5e40-4214-bbf3-05d1224f9dbd from our master session list
+2021-10-27 07:12:44:673 [UiAutomator2] Deleting UiAutomator2 session
+2021-10-27 07:12:44:673 [UiAutomator2] Deleting UiAutomator2 server session
+2021-10-27 07:12:44:674 [WD Proxy] Matched '/' to command name 'deleteSession'
+2021-10-27 07:12:44:674 [WD Proxy] Proxying [DELETE /] to [DELETE http://127.0.0.1:10000/wd/hub/session/87f1625a-8083-4411-95a5-543bab41bdec] with no body
+2021-10-27 07:12:44:691 [WD Proxy] Got response with status 200: {"sessionId":"87f1625a-8083-4411-95a5-543bab41bdec","value":null}
+2021-10-27 07:12:44:691 [ADB] Running '/Users/nyla/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am force-stop com.swaglabsmobileapp'
+2021-10-27 07:12:44:920 [Logcat] Stopping logcat capture
+2021-10-27 07:12:44:922 [ADB] Removing forwarded port socket connection: 10000 
+2021-10-27 07:12:44:922 [ADB] Running '/Users/nyla/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 forward --remove tcp:10000'
+2021-10-27 07:12:44:931 [UiAutomator2] Restoring hidden api policy to the device default configuration
+2021-10-27 07:12:44:931 [ADB] Running '/Users/nyla/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy''
+2021-10-27 07:12:45:118 [BaseDriver] Event 'quitSessionFinished' logged at 1635318765118 (03:12:45 GMT-0400 (Eastern Daylight Time))
+2021-10-27 07:12:45:119 [W3C (8d597fc4)] Received response: null
+2021-10-27 07:12:45:119 [W3C (8d597fc4)] But deleting session, so not returning
+2021-10-27 07:12:45:119 [W3C (8d597fc4)] Responding to client with driver.deleteSession() result: null
+2021-10-27 07:12:45:120 [HTTP] <-- DELETE /wd/hub/session/8d597fc4-5e40-4214-bbf3-05d1224f9dbd 200 449 ms - 14
+2021-10-27 07:12:45:120 [HTTP] 
+2021-10-27 07:12:45:126 [Appium] Received SIGTERM - shutting down
+2021-10-27 07:12:45:127 [Appium] There are no active sessions for cleanup
+2021-10-27 07:12:45:131 uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (internal/stream_base_commons.js:156:25)
+    at writeGeneric (internal/stream_base_commons.js:147:3)
+    at Socket._writeGeneric (net.js:787:11)
+    at Socket._write (net.js:799:8)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at Socket.Writable.write (internal/streams/writable.js:303:10)
+    at Console.log (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:428:64)
+    at writeOrBuffer (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:417:5)
+    at Console.Writable.write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:334:11)
+    at DerivedLogger.ondata (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:681:20)
+    at DerivedLogger.emit (events.js:412:35)
+    at addChunk (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:298:12)
+    at readableAddChunk (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:280:11)
+    at DerivedLogger.Readable.push (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:241:10)
+2021-10-27 07:12:45:132 uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (internal/stream_base_commons.js:156:25)
+    at writeGeneric (internal/stream_base_commons.js:147:3)
+    at Socket._writeGeneric (net.js:787:11)
+    at Socket._write (net.js:799:8)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at Socket.Writable.write (internal/streams/writable.js:303:10)
+    at Console.log (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/transports/console.js:51:25)
+    at Console._write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:428:64)
+    at writeOrBuffer (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:417:5)
+    at Console.Writable.write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:334:11)
+    at DerivedLogger.ondata (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:681:20)
+    at DerivedLogger.emit (events.js:412:35)
+    at addChunk (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:298:12)
+    at readableAddChunk (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:280:11)
+    at DerivedLogger.Readable.push (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:241:10)
