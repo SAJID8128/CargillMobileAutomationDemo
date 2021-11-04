@@ -20,12 +20,10 @@ public class PropertyManager {
             } catch (IOException ex) {
                 ex.printStackTrace();
                 throw ex;
-
             }finally {
                 if (is != null) {
                     is.close();
                 }
-
             }
         }
         return props;

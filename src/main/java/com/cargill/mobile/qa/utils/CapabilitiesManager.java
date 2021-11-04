@@ -25,10 +25,11 @@ public class CapabilitiesManager {
             capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, params.getDeviceName());
 
             // For Android framework.
-            /* The reason the values are kept inside a property file is because these values can change
+            /*The reason the values are kept inside a property file is because these values can change
                (Android or iOS).*/
             if("Android".equals(params.getPlatformName())) {
                 capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME,props.getProperty("androidAutomationName"));
+                capabilities.setCapability("platformName","Android");
                 capabilities.setCapability("platformVersion",props.getProperty("10"));
                 capabilities.setCapability("appPackage",props.getProperty("androidAppPackage"));
                 capabilities.setCapability("appActivity",props.getProperty("androidAppActivity"));

@@ -16,7 +16,7 @@ public class GlobalParams {
     private static ThreadLocal<String> systemPort = new ThreadLocal<String>();
     private static ThreadLocal<String> chromeDriverPort = new ThreadLocal<String>();
 
-
+    //-----platformName-----
     public String getPlatformName() {
         return platformName.get();
     }
@@ -25,7 +25,7 @@ public class GlobalParams {
         platformName.set(platformName1);
     }
 
-
+    //-----UDID-----
     public String getUDID() {
         return udid.get();
     }
@@ -34,7 +34,7 @@ public class GlobalParams {
         udid.set(udid2);
     }
 
-
+    //-----deviceName-----
     public String getDeviceName() {
         return deviceName.get();
     }
@@ -43,16 +43,15 @@ public class GlobalParams {
         deviceName.set(deviceName2);
     }
 
-
+    //-----systemPort-----
     public String getSystemPort() {
         return systemPort.get();
     }
 
-    public void setSystemPort(String systemPort2) {
-        systemPort.set(systemPort2);
+    public void setSystemPort(String systemPort2) {systemPort.set(systemPort2);
     }
 
-
+    //-----chromeDriverPort
     public String getChromeDriverPort() {
         return chromeDriverPort.get();
     }
@@ -77,7 +76,5 @@ public class GlobalParams {
         } else {
             throw new IllegalStateException("Invalid platform name!");
         }
-
     }
-
 }

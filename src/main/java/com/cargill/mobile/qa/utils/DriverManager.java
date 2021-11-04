@@ -9,10 +9,12 @@ public class DriverManager {
     private Utils utils = new Utils();
 
     public AppiumDriver getDriver() {
+
         return driver.get();
     }
 
     public void setDriver(AppiumDriver driver1) {
+
         driver.set(driver1);
     }
 

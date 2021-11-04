@@ -30,6 +30,7 @@ public class ServerManager {
     // Method 1)
     // Here you cannot "return" the "server" but the "value of the server" (server.get()).
     public AppiumDriverLocalService getServer() {
+
         return server.get();
     }
 

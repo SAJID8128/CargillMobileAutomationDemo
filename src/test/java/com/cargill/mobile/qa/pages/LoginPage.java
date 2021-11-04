@@ -2,7 +2,6 @@ package com.cargill.mobile.qa.pages;
 
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
-import io.appium.java_client.pagefactory.AndroidFindBys;
 
 public class LoginPage extends BasePage {
 
@@ -16,28 +15,22 @@ public class LoginPage extends BasePage {
     private MobileElement btnLogin;
 
     @AndroidFindBy(accessibility = "test-Error message")
-    private MobileElement errorMessageTextView;
+    private MobileElement errorMessageTextEdit;
 
-    // "return this" returns "LoginPage" class
-    // Calling "clear" method from BasePage
-    // Calling "sendKeys" method from BasePage
-    public LoginPage enterUserName(String username) throws InterruptedException{
-        clear(userNameEditText);
-        sendKeys(userNameEditText, username);
+    public LoginPage enterUserName(String userName) {
+        //clear(userNameEditText);
+       // sendKeys(userNameEditText, userName);
         return this;
     }
 
-    public LoginPage enterPassword(String password) throws InterruptedException{
+    public LoginPage enterPasswordName(String password) {
         clear(passwordEditText);
         sendKeys(passwordEditText, password);
         return this;
     }
 
-    public void pressLogBtn() {
+    public void pressLoginBtn() {
         click(btnLogin);
-
     }
-
-
 
 }
