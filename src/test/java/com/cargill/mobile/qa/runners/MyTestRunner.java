@@ -1,6 +1,5 @@
 package com.cargill.mobile.qa.runners;
 
-import com.cargill.mobile.qa.pages.LoginPage;
 import com.cargill.mobile.qa.utils.DriverManager;
 import com.cargill.mobile.qa.utils.GlobalParams;
 import com.cargill.mobile.qa.utils.ServerManager;
@@ -56,12 +55,12 @@ public class MyTestRunner {
 
         DriverManager driverManager = new DriverManager();
         if(driverManager.getDriver() != null) {
-            driverManager.getDriver().quit();
-            driverManager.setDriver(null);
+           // driverManager.getDriver().quit();
+           // driverManager.setDriver(null);
         }
         ServerManager serverManager = new ServerManager();
         if(serverManager.getServer() != null) {
-            serverManager.getServer().stop();
+           // serverManager.getServer().stop();
         }
     }
 
@@ -86,6 +85,4 @@ public class MyTestRunner {
 //        } catch (Exception ex) {
 //
 //        }
-
-
 }
