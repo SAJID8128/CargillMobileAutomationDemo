@@ -14,12 +14,13 @@ public class LoginPage extends BasePage {
     @AndroidFindBy(accessibility = "test-LOGIN")
     private MobileElement btnLogin;
 
-    @AndroidFindBy(accessibility = "test-Error message")
-    private MobileElement errorMessageTextEdit;
+    @AndroidFindBy(xpath = "//android.view.ViewGroup[@content-desc=\"test-Error message\"]/android.widget.TextView")
+    private MobileElement errorMessageTextView;
+
 
     public LoginPage enterUserName(String userName) {
-        //clear(userNameEditText);
-       // sendKeys(userNameEditText, userName);
+        clear(userNameEditText);
+        sendKeys(userNameEditText, userName);
         return this;
     }
 
@@ -29,8 +30,18 @@ public class LoginPage extends BasePage {
         return this;
     }
 
-    public void pressLoginBtn() {
+    public ProductsPage pressLoginBtn() {
         click(btnLogin);
+        return new ProductsPage();
     }
 
+//    public ProductsPage login(String username, String password) throws InterruptedException{
+//        enterUserName(username);
+//        enterPasswordName(password);
+//        return new ProductsPage();
+//    }
+
+    public String getErrText() {
+        return getText(errorMessageTextView);
+    }
 }

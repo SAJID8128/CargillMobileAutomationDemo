@@ -2,7 +2,6 @@ package com.cargill.mobile.qa.utils;
 
 import io.appium.java_client.AppiumDriver;
 
-//***COMPLETED***
 public class DriverManager {
     private static ThreadLocal<AppiumDriver> driver = new ThreadLocal<AppiumDriver>();
 

@@ -3,7 +3,7 @@ package com.cargill.mobile.qa.utils;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
-//***COMPLETED***
+
 public class PropertyManager {
 
     private static Properties props = new Properties();

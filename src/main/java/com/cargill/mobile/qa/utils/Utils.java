@@ -4,7 +4,6 @@ package com.cargill.mobile.qa.utils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-//***COMPLETED***
 public class Utils {
 
     public static final long WAIT = 10;

@@ -1,6 +1,5 @@
 package com.cargill.mobile.qa.utils;
 
-//***COMPLETE***
 // This will be called by the "runner class" which then will start the server and initialize the driver.
 public class GlobalParams {
 

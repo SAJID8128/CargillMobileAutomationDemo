@@ -4,11 +4,9 @@ import io.appium.java_client.service.local.AppiumDriverLocalService;
 import io.appium.java_client.service.local.AppiumServerHasNotBeenStartedLocallyException;
 import io.appium.java_client.service.local.AppiumServiceBuilder;
 import io.appium.java_client.service.local.flags.GeneralServerFlag;
-
 import java.io.File;
 import java.util.HashMap;
 
-//***COMPLETED***
 // This ServerManager is the same for all types of framework (Android, iOS, Windows).
 // ServerManager will be creating one variable called "server" and the type will be (AppiumDriverLocalService).
 /* Here we will be creating one getter method called "getServer" and we don't need a setter method because

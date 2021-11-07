@@ -5,7 +5,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 
 import java.io.File;
 import java.util.Properties;
-//***COMPLETED***
+
 public class CapabilitiesManager {
 
     Utils utils = new Utils();
